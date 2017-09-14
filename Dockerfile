@@ -19,4 +19,4 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 
 # Install packages
 RUN sudo vca-install-package \
-  cpio dhcp fakeroot iproute2 squashfs-tools zip
+  cpio dhcp dosfstools fakeroot iproute2 ovmf squashfs-tools zip
