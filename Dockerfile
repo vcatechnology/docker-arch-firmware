@@ -19,4 +19,4 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 
 # Install packages
 RUN sudo vca-install-package \
-  cpio dhcp dosfstools fakeroot iproute2 ovmf python-pexpect squashfs-tools zip
+  cpio dhcp dosfstools fakeroot iproute2 ovmf python-pexpect python-requests squashfs-tools zip
